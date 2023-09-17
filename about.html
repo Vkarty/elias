@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biography</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    <nav class="navbar expand ig">
+        <h1 class="logo">𝐄𝐋𝐈𝐀𝐒 𝐂𝐎𝐑𝐁𝐄𝐓𝐓</h1>
+        <ul class="nav-links" id="item">
+            <li><a href="./index.html#home">Home</a></li>
+            <li><a href="./index.html#events">Events</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./index.html#photos">Photos</a></li>
+            <li><a href="./index.html#about1">Works</a></li>
+            <li class="ctn"><a href="./index.html#events1">Book</a></li>
+        </ul>
+        <img src="./img/menu-btn.jpg" alt="" class="menu-btn">
+     </nav>
+
+
+
+    <section class="bio">
+        <div class="main">
+            <img src="./img/Gallery/img-39.jpg">
+            <div class="bio-text">
+                <h1>Biography</h1>
+                <div class="line"></div>
+                <p>Hello, my name is Elias Corbett and I am a professional drummer in the Ottawa, Ontario region. Drumming became a time passer and new hobby for me during Covid-19 lockdown times. I developed a passionate playing style for many genres of music, mainly punk, metal, and reggae, however I appreciate percussion in all forms. 
+                    I have officially played with 3 bands since I started drums in March 2020. First was a band called Stereo-7 where we played melodic/psychedelic rock, although after one gig, the band didn’t last long. Then after a few months, I joined Klawfield. This was a more put together band, and I learnt a lot more about being involved in a legit group. We played many shows, released music, and even hosted a two day music festival called Punkfest (2022). Punkfest was a huge success, we sold out the hosting venue both days, which was at Cafe Dekcuf in Ottawa. I left the band that same year about 6 months after this event.<br>
+                    
+                    I then started a band in June 2022 called Innuendo with Anthony Kartsev, and Bhavesh Singh. We stuck to the heavier side of music, narrowing in on thrash metal. We liked to see ourselves very prominent in the heavy metal/thrash metal scene for Ottawa. In our first couple of weeks we received overwhelming amounts of attention due to our very frequent activity on social media. At one point it became too overwhelming we found a social media manager. We played many shows, released lots of music, sold some merchandise, and I’ve stored up lots of video footage from trips, shows, nights out, etc. Unfortunately, as much as I was committed to this band, we disbanded after a strong year.<br>
+                    
+                        My goal is to become a studio drummer who is knowledgeable in audio engineering and sound production. I am a student at Algonquin College in Ottawa enrolled in their Music Industry Arts program.I have many goals and ambitions, and have taken up many side projects and networking opportunities. This will lead me into the right direction, if that is the will of God.</p>
+                        
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+        navlinks.addEventListener('click',()=>{
+            navlinks.classList.remove('mobile-menu')
+        })
+        
+    </script>
+    
+</body>
+</html>

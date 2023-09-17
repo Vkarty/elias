@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Releases</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar expand ig">
+        <h1 class="logo">𝐄𝐋𝐈𝐀𝐒 𝐂𝐎𝐑𝐁𝐄𝐓𝐓</h1>
+        <ul class="nav-links" id="item">
+            <li><a href="./index.html#home">Home</a></li>
+            <li><a href="./index.html#events">Events</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./index.html#photos">Photos</a></li>
+            <li><a href="./index.html#about1">Works</a></li>
+            <li class="ctn"><a href="./index.html#events1">Book</a></li>
+        </ul>
+        <img src="./img/menu-btn.jpg" alt="" class="menu-btn">
+     </nav>
+
+
+
+    <section id="tickets" class="tickets">
+
+
+    <div class="tickets1">
+        <h1>STAY TUNED!</h1>
+      <!--  <div class="line"></div>  -->
+      
+    </div>
+     <!--   
+    <div class="row">
+        <div class="col">
+            <img src="./img/tickets-1.jpg" alt="">
+            <h4>KLAWFIELD</h4>
+            <p>Klawfield 2 EP is out. Stream it on your favorite platform</p>
+            <a href="https://open.spotify.com/artist/56qPQrZJ3FfqmZeHF8k9XG" class="ctn">Play on spotify</a>
+            <a href="https://www.youtube.com/@klawfieldofficial4941/videos" class="ctn">Play on youtube</a>
+        </div>
+      
+     <div class="row">   
+        <div class="col">
+            <img src="./img/tickets-2.1.jpg" alt="">
+            <h4>INNUENDO</h4>
+            <p>All Systems Go EP is out. Stream it on your favorite platform</p>
+            <a href="https://open.spotify.com/album/5PaEKkEDU3OZFRBEG23EED" class="ctn">Play on spotify</a>
+            <a href="https://www.youtube.com/@____innuendo____/videos" class="ctn">Play on youtube</a>
+        </div>
+        
+
+    </div>
+    </section>
+-->
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+        navlinks.addEventListener('click',()=>{
+            navlinks.classList.remove('mobile-menu')
+        })
+        
+    </script>
+</body>
+</html>
