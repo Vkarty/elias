@@ -256,7 +256,10 @@ p {
     align-items: center;
 }
 
-
+.about1 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
 .about-content {
