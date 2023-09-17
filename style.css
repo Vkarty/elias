@@ -608,6 +608,10 @@ footer {
     .container .heading h3{
         font-size: 3em;
     }
+    .content-col .ctn {
+        margin-left: 5px;
+        margin-top: 50px;
+    }
 
     /* Bio */
 
