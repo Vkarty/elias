@@ -321,6 +321,9 @@ p {
 .content-col .ctn {
     margin-left: 5px;
 }
+.photos .content-col .ctn{
+    margin-top: 2px;
+}
 
 footer {
     background: #111;
