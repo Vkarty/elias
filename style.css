@@ -210,6 +210,9 @@ section {
     margin-top: 50px;
 }
 
+.events .row .col p{
+    margin-bottom: 10px;
+}
 
 /*booking*/
 .events1 .row {
